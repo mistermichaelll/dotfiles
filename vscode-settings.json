@@ -1,0 +1,70 @@
+{
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.fontSize": 14,
+    "editor.fontFamily": "Fira Mono",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.terminal.activateEnvironment": false,
+    "git.autofetch": true,
+    "editor.renderWhitespace": "selection",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.settings.editor": "ui",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.fixAll.ruff": "always",
+            "source.unusedImports": "always"
+        },
+        "editor.rulers": [80], 
+        "editor.insertSpaces": true, 
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "[rust]" :{
+        "editor.rulers": [100], 
+        "editor.formatOnSave": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "python.analysis.languageServerMode": "default",
+    "editor.fontSize": 14,
+    "json.schemas": [],
+    "workbench.iconTheme": "catppuccin-mocha",
+    "settingsSync.ignoredExtensions": [],
+    "workbench.editor.empty.hint": "hidden",
+    "python.analysis.typeCheckingMode": "standard",
+    "window.commandCenter": false,
+    "python.analysis.extraPaths": [
+        "src"
+    ],
+    "chat.disableAIFeatures": true,
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "telemetry.editStats.enabled": false,
+    "workbench.colorTheme": "Noctis Bordo",
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "update.mode":"none"
+}
